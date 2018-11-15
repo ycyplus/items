@@ -1,0 +1,46 @@
+.login_logo {
+    width: 86px;
+    height: 86px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    background: url("../images/chuizi.png") no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+#register .bottom1 {
+   height: auto;
+}
+#register {
+    height: 520px;
+}
+.top_login h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.bob {
+    font-size: 12px;
+    color: #999999;
+    margin-top: 6px;
+
+}
+.bob a {
+    height: 18px;
+    background-color: gold;
+    display: inline-block;
+    color: #999999;
+    padding:0 5px;
+    background: url("../images/login_icon.png") no-repeat;
+    margin:0 5px;
+}
+a.aover {
+    margin-left: 57px;
+    background: none;
+}
+.terms .a2 {
+    margin-left: 70px;
+}
+.bottom_box .l1 {
+    background: url(../images/dl_icon.png) no-repeat -46px -46px;
+}

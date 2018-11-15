@@ -1,0 +1,205 @@
+body {
+    background: url("../images/bj.png");
+}
+
+#register {
+    width: 450px;
+    height: 596px;
+    border: 1px solid #dadada;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 2px 12px 50px #c4c4c4;
+    overflow: hidden;
+}
+
+#register .top {
+    width: 100%;
+    height: 61px;
+    background: linear-gradient(to top, #f5f5f5, #f6f6f6, #f7f7f7, #f8f8f8, #f9f9f9, #f9f9f9, #fafafa, #fbfbfb, #fcfcfc, #fdfdfd, #fefefe);
+    border-bottom: 1px solid #dcdcdc;
+}
+
+#register .top h1 {
+    font-size: 20px;
+    color: #666666;
+    text-align: center;
+    line-height: 61px;
+    font-weight: bold;
+}
+
+#register .bottom {
+    height: 485px;
+    background: linear-gradient(to top, #f5f5f5, #f6f6f6, #f7f7f7, #f8f8f8, #f9f9f9, #f9f9f9, #fafafa, #fbfbfb, #fcfcfc, #fdfdfd, #fefefe);
+    border-bottom: 1px solid #dcdcdc;
+    padding: 30px 40px 25px;
+}
+
+.bottom form {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dadada;
+}
+
+#register .bottom .bottom_box {
+    width: 368px;
+    height: 46px;
+    border: 1px solid #dfdfdf;
+    font-size: 16px;
+    cursor: default;
+    color: #a0a0a0;
+    background: linear-gradient(to top, #fbfbfb, #fafafa);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.bottom_box .l {
+    width: 46px;
+    height: 46px;
+    border-right: 1px solid #dfdfdf;
+    float: left;
+    background: url("../images/dl_icon.png") no-repeat 0 -46px;
+}
+
+.bottom_box .l,
+.bottom_box .c,
+.bottom_box .r {
+    float: left;
+    line-height: 46px;
+    transition: all 300ms;
+
+}
+
+.bottom_box:hover .c,
+.bottom_box:hover .r,
+.bottom_box:hover .duanxin,
+.bottom_box:hover u {
+    color: black;
+}
+
+
+.bottom_box .c {
+    text-indent: 20px;
+    float: left;
+
+}
+
+.bottom_box .r {
+    text-align: right;
+    min-width: 180px;
+    position: relative;
+}
+
+.bottom_box .r span {
+    position: absolute;
+    right: -25px;
+    top: 16px;
+    border: 4px solid transparent;
+}
+
+#r_prev {
+    border-bottom-color: #cfcfcf;
+}
+
+#r_next {
+    top: 26px;
+    border-top-color: #cfcfcf;
+}
+
+.bottom_box input {
+    width: 260px;
+    height: 46px;
+    text-indent: 16px;
+    color: #e3e3e3;
+    vertical-align: bottom;
+
+}
+
+
+.bottom_box .duanxin {
+    width: 200px;
+    height: 46px;
+    border: 1px solid #f0f0f0;
+    border-top: none;
+}
+
+.bottom_box .yzm {
+    width: 112px;
+    height: 44px;
+    border-right: 1px solid #f2f2f2;
+    background: none;
+    color: #c6c6c6;
+    float: right;
+    text-align: left;
+}
+
+.bottom_box u {
+    position: absolute;
+    left: 60px;
+    top: 12px;
+    text-decoration: none;
+    color: #d6d6d6;
+    cursor: text;
+}
+
+/* 隐私条款 */
+.terms p {
+    font-size: 14px;
+    color: #999999;
+    text-indent: 40px;
+    background: url("../images/dui.png") no-repeat 12px -20px;
+    cursor: pointer;
+}
+
+.terms a {
+    color: #5079d9;
+}
+
+/* 注册按钮 */
+.bottom .zhuce {
+    width: 368px;
+    height: 48px;
+    border-radius: 10px;
+    background: url("../images/zhuce.png") -24px -339px;
+    color: white;
+    font-size: 16px;
+    margin-top: 35px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.bottom .bb {
+    font-size: 12px;
+    color: #9999a4;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.bottom .bb a {
+    color: #5079d9;
+}
+
+/* 错误提示 */
+.bottom .error {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 10px;
+    background-color: #d16d62;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.bottom .error1 {
+    right: 130px;
+}
