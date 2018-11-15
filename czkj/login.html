@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户登录-锤子科技</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <!-- 注册面板 -->
+    <div id="register">
+        <div class="top_login">
+            <div class="login_logo">
+            </div>
+            <h2>使用 Smartisan ID 登录官网</h2>
+        </div>
+
+
+
+
+        
+        <div class="bottom bottom1">
+            <form  method="post" action="php/login.php"  id = "form">
+                <div class="bottom_box">
+                    <div class="l">
+
+                    </div>
+                    <input type="text" value="手机号 / 邮箱" id="username" name="username">
+                </div>
+                <div class="bottom_box">
+                    <div class="l l1">
+
+                    </div>
+                    <!--<input  type="password" value="密码" id = "password"name="password" >-->
+                    <input  type="password" value="密码" id = "password"name="password" >
+                    <i></i>
+                </div>
+
+
+
+                <div class="terms">
+                   <p>自动登录
+                       <a class = "a2" href="register.html">注册 Smartisan ID</a>
+                       <span> | </span>
+                       <a href="javascript:;">忘记密码?</a>
+                   </p>
+                </div>
+
+                <!-- 注册提交按钮 -->
+                <input class= "zhuce" type="button" value="登录" id = "btn">
+            </form>
+
+            <div class = "bob">
+                <span>其他账号登录:</span>
+                <a href="javascript:;">1</a>
+                <a href="javascript:;">2</a>
+                <a href="javascript:;">3</a>
+                <a href="javascript:;">4</a>
+                <a class = "aover" href="javascript:;">国际手机号登录 > </a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="js/base.js"></script>
+<script src="js/login.js"></script>

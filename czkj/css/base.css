@@ -1,0 +1,75 @@
+body, ul, li, ol, dl, dd, th, td, input, textarea, select, option, form, p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "微软雅黑",Arial;
+}
+
+ul {
+	list-style: none;
+}
+
+
+/* 清除标题标签的默认加粗效果 */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* 去掉表单点击默认的蓝色边框 */
+/* 去掉表单的边框 */
+input {
+	outline: none;
+	border: none;    
+}
+
+/* 清除图片3px缝隙 */
+img {
+	vertical-align: middle;  
+	border: none;   
+}
+
+/* 清除文本域默认拖动效果 */
+textarea {
+	resize: none;
+}
+
+/* 备用小行内元素清除默认样式 */
+i, em, s, b, strong {
+	font-style: normal;
+}
+
+/* 公共类 */
+
+/* 双伪元素清除浮动 */
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/* 左右浮动 */
+.fl {
+	float: left;
+}
+.fr {
+ 	float: right;
+}
+/* 文本居中*/
+.tc {
+	text-align: center;
+}
+
+/* 版心 每次修改宽即可 */
+.w {
+	width: 1220px;
+	margin: 0 auto;
+}
